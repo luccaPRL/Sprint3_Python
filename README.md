@@ -58,19 +58,19 @@ O código completo pode ser encontrado neste repositório:
 ```plaintext
 [Menu Principal]
        |
-       |-- [1] Ambulatório
-       |       |-- Listar pacientes
-       |       |-- Adicionar paciente
+       | [1] Ambulatório
+       |       | Listar pacientes
+       |       | Adicionar paciente
        |
-       |-- [2] Pronto Atendimento
-       |       |-- Listar pacientes
-       |       |-- Adicionar paciente
+       | [2] Pronto Atendimento
+       |       | Listar pacientes
+       |       | Adicionar paciente
        |
-       |-- [3] Central de Agendamento
-       |       |-- Agendar consulta
-       |       |-- Listar agendamentos
+       | [3] Central de Agendamento
+       |       | Agendar consulta
+       |       | Listar agendamentos
        |
-       |-- [4] Sair
+       | [4] Sair
 ```
 ## 8. Observações Importantes
 Este sistema é voltado para fins educacionais e não utiliza banco de dados.
