@@ -73,9 +73,7 @@ O código completo pode ser encontrado neste repositório:
        | [4] Sair
 ```
 ## 8. Observações Importantes
-Este sistema é voltado para fins educacionais e não utiliza banco de dados.
+Esse codigo funciona para fins educacionais e não utiliza banco de dados.
 
 Todos os dados cadastrados são perdidos ao encerrar o programa.
-
-O sistema pode ser facilmente expandido para persistência de dados utilizando arquivos (.txt, .csv) ou bancos de dados (SQLite, MySQL) no futuro.
 
