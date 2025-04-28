@@ -8,7 +8,7 @@ O sistema é dividido em três áreas principais:
 - **Pronto Atendimento**: Gerenciamento de atendimentos de emergência.
 - **Central de Agendamento**: Sistema para agendar consultas médicas.
 
-O programa opera através do terminal (linha de comando), utilizando menus interativos e conceitos fundamentais de programação como:
+O programa funciona através do terminal (linha de comando), utilizando menus interativos e conceitos fundamentais de programação como:
 - Estruturas de decisão (`if`, `elif`, `else`)
 - Laços de repetição (`while`, `for`)
 - Manipulação de listas e strings
@@ -19,7 +19,7 @@ O programa opera através do terminal (linha de comando), utilizando menus inter
 ## 2. Objetivos do Projeto
 - Aplicar conceitos básicos de Python em um cenário prático.
 - Demonstrar a utilização de menus e navegação baseada em escolhas do usuário.
-- Organizar o código de forma clara, modular e reutilizável.
+- Organizar o código de forma clara, simples e objetiva.
 - Simular o funcionamento de áreas administrativas de um hospital.
 
 ---
@@ -43,8 +43,8 @@ O programa opera através do terminal (linha de comando), utilizando menus inter
 ---
 
 ## 5. Tecnologias Utilizadas
-- Python 3.10+
-- GitHub para versionamento e armazenamento do projeto
+- Python
+- GitHub
 
 ---
 
