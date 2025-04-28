@@ -8,7 +8,7 @@ O sistema é dividido em três áreas principais:
 - **Pronto Atendimento**: Gerenciamento de atendimentos de emergência.
 - **Central de Agendamento**: Sistema para agendar consultas médicas.
 
-O programa opera através do terminal (linha de comando), utilizando menus interativos e conceitos fundamentais de programação como:
+O programa funciona através do terminal (linha de comando), utilizando menus interativos e conceitos fundamentais de programação como:
 - Estruturas de decisão (`if`, `elif`, `else`)
 - Laços de repetição (`while`, `for`)
 - Manipulação de listas e strings
@@ -19,7 +19,7 @@ O programa opera através do terminal (linha de comando), utilizando menus inter
 ## 2. Objetivos do Projeto
 - Aplicar conceitos básicos de Python em um cenário prático.
 - Demonstrar a utilização de menus e navegação baseada em escolhas do usuário.
-- Organizar o código de forma clara, modular e reutilizável.
+- Organizar o código de forma clara, simples e objetiva.
 - Simular o funcionamento de áreas administrativas de um hospital.
 
 ---
@@ -43,14 +43,14 @@ O programa opera através do terminal (linha de comando), utilizando menus inter
 ---
 
 ## 5. Tecnologias Utilizadas
-- Python 3.10+
-- GitHub para versionamento e armazenamento do projeto
+- Python
+- GitHub
 
 ---
 
 ## 6. Código Fonte
 O código completo pode ser encontrado neste repositório:  
-**[(https://github.com/luccaPRL/Sprint3_Python/tree/main)]**
+**[([https://github.com/luccaPRL/Sprint3_Python/tree/main](https://github.com/luccaPRL/Sprint3_Python/blob/main/Sistema.py))]**
 
 ---
 
@@ -58,24 +58,22 @@ O código completo pode ser encontrado neste repositório:
 ```plaintext
 [Menu Principal]
        |
-       |-- [1] Ambulatório
-       |       |-- Listar pacientes
-       |       |-- Adicionar paciente
+       | [1] Ambulatório
+       |       | Listar pacientes
+       |       | Adicionar paciente
        |
-       |-- [2] Pronto Atendimento
-       |       |-- Listar pacientes
-       |       |-- Adicionar paciente
+       | [2] Pronto Atendimento
+       |       | Listar pacientes
+       |       | Adicionar paciente
        |
-       |-- [3] Central de Agendamento
-       |       |-- Agendar consulta
-       |       |-- Listar agendamentos
+       | [3] Central de Agendamento
+       |       | Agendar consulta
+       |       | Listar agendamentos
        |
-       |-- [4] Sair
+       | [4] Sair
 ```
 ## 8. Observações Importantes
-Este sistema é voltado para fins educacionais e não utiliza banco de dados.
+Esse codigo funciona para fins educacionais e não utiliza banco de dados.
 
 Todos os dados cadastrados são perdidos ao encerrar o programa.
-
-O sistema pode ser facilmente expandido para persistência de dados utilizando arquivos (.txt, .csv) ou bancos de dados (SQLite, MySQL) no futuro.
 
