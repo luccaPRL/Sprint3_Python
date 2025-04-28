@@ -1,13 +1,11 @@
-# Sistema de Gestão Hospitalar Simples
-# Desenvolvido para demonstrar conceitos básicos de Python
-# Funcionalidades: Controle de ambulatório, pronto atendimento e agendamento de consultas
+#Sistema de Gestão Hospitalar Simples // Sprint 3 python
 
-# Listas para armazenar dados de pacientes e agendamentos
+#Listas de armazenamento de pacientes
 pacientes_ambulatorio = []
 pacientes_pronto_atendimento = []
 agendamentos = []
 
-# Função principal que gerencia o menu inicial do sistema
+#Função que gerencia o menu inicial do sistema
 def menu_principal():
     while True:
         print("\n=== Sistema de Gestão Hospitalar ===")
@@ -18,7 +16,7 @@ def menu_principal():
 
         escolha = input("Escolha uma opção: ")
 
-        # Encaminhamento do usuário conforme a escolha
+        #Menu de tela de escolha do paciente
         if escolha == "1":
             menu_ambulatorio()
         elif escolha == "2":
@@ -31,7 +29,7 @@ def menu_principal():
         else:
             print("Opção inválida. Tente novamente.")
 
-# Função para gerenciamento de pacientes do ambulatório
+#Função do ambulatório
 def menu_ambulatorio():
     while True:
         print("\n--- Ambulatório ---")
@@ -50,7 +48,7 @@ def menu_ambulatorio():
         else:
             print("Opção inválida. Tente novamente.")
 
-# Função para gerenciamento de pacientes do pronto atendimento
+# Função do pronto atendimento
 def menu_pronto_atendimento():
     while True:
         print("\n--- Pronto Atendimento ---")
@@ -69,7 +67,7 @@ def menu_pronto_atendimento():
         else:
             print("Opção inválida. Tente novamente.")
 
-# Função para gerenciamento de agendamentos de consultas
+# Função do agendamentos de consultas
 def menu_agendamento():
     while True:
         print("\n--- Central de Agendamento ---")
@@ -88,7 +86,7 @@ def menu_agendamento():
         else:
             print("Opção inválida. Tente novamente.")
 
-# Função para listar pacientes de uma determinada lista
+#Mostra os pacientes em umas lista
 def listar_pacientes(lista):
     if not lista:
         print("Nenhum paciente cadastrado.")
@@ -97,7 +95,7 @@ def listar_pacientes(lista):
         for paciente in lista:
             print(f"- {paciente}")
 
-# Função para adicionar pacientes em uma lista específica
+#Coloca pacientes em uma lista expecifica
 def adicionar_paciente(lista):
     nome = input("Digite o nome do paciente: ").strip().title()
     if nome:
@@ -106,7 +104,7 @@ def adicionar_paciente(lista):
     else:
         print("Nome inválido.")
 
-# Função para registrar um novo agendamento de consulta
+# Função para agendar consulta
 def agendar_consulta():
     nome = input("Digite o nome do paciente para agendar: ").strip().title()
     data = input("Digite a data da consulta (dd/mm/aaaa): ").strip()
@@ -119,7 +117,7 @@ def agendar_consulta():
     else:
         print("Informações inválidas.")
 
-# Função para listar todos os agendamentos realizados
+# Função que mostra os agendamentos realizados
 def listar_agendamentos():
     if not agendamentos:
         print("Nenhum agendamento realizado.")
@@ -128,5 +126,5 @@ def listar_agendamentos():
         for agendamento in agendamentos:
             print(f"- {agendamento}")
 
-# Ponto de entrada do sistema
+#Start
 menu_principal()
