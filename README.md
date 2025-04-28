@@ -50,7 +50,7 @@ O programa funciona através do terminal (linha de comando), utilizando menus in
 
 ## 6. Código Fonte
 O código completo pode ser encontrado neste repositório:  
-**[(https://github.com/luccaPRL/Sprint3_Python/tree/main)]**
+**[([https://github.com/luccaPRL/Sprint3_Python/tree/main](https://github.com/luccaPRL/Sprint3_Python/blob/main/Sistema.py))]**
 
 ---
 
