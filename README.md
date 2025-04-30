@@ -1,6 +1,6 @@
 # Sistema de Gestão Hospitalar em Python
 
-## 1. Descrição do Projeto
+## Descrição do Projeto
 Este projeto consiste no desenvolvimento de um Sistema de Gestão Hospitalar básico utilizando a linguagem de programação Python.
 
 O sistema é dividido em três áreas principais:
@@ -16,7 +16,7 @@ O programa funciona através do terminal (linha de comando), utilizando menus in
 
 ---
 
-## 2. Objetivos do Projeto
+## Objetivos do Projeto
 - Aplicar conceitos básicos de Python em um cenário prático.
 - Demonstrar a utilização de menus e navegação baseada em escolhas do usuário.
 - Organizar o código de forma clara, simples e objetiva.
@@ -24,7 +24,7 @@ O programa funciona através do terminal (linha de comando), utilizando menus in
 
 ---
 
-## 3. Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 | Área                 | Funcionalidades                     |
 |-----------------------|-------------------------------------|
@@ -34,7 +34,7 @@ O programa funciona através do terminal (linha de comando), utilizando menus in
 
 ---
 
-## 4. Estrutura do Código
+## Estrutura do Código
 - **Menu Principal**: Escolha entre Ambulatório, Pronto Atendimento, Agendamento ou Sair.
 - **Menus Secundários**: Cada área possui seu próprio conjunto de opções.
 - **Funções Modulares**: Cada funcionalidade é separada em funções específicas.
@@ -42,19 +42,19 @@ O programa funciona através do terminal (linha de comando), utilizando menus in
 
 ---
 
-## 5. Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Python
 - GitHub
 
 ---
 
-## 6. Código Fonte
+## Código Fonte
 O código completo pode ser encontrado neste repositório:  
 **[([https://github.com/luccaPRL/Sprint3_Python/tree/main](https://github.com/luccaPRL/Sprint3_Python/blob/main/Sistema.py))]**
 
 ---
 
-## 7. Diagrama do Funcionamento do Sistema
+## Diagrama do Funcionamento do Sistema
 ```plaintext
 [Menu Principal]
        |
@@ -72,4 +72,8 @@ O código completo pode ser encontrado neste repositório:
        |
        | [4] Sair
 ```
+## Integrantes
 
+- **Diego Garcia Tosta** - RM: 556724  
+- **Joud Jihad Jaber** - RM: 556482  
+- **Lucca Pereira** - RM: 560731
