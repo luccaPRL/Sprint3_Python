@@ -1,4 +1,4 @@
-# 📄 Sistema de Gestão Hospitalar em Python
+# Sistema de Gestão Hospitalar em Python
 
 ## 1. Descrição do Projeto
 Este projeto consiste no desenvolvimento de um Sistema de Gestão Hospitalar básico utilizando a linguagem de programação Python.
