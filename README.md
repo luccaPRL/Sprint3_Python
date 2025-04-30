@@ -72,8 +72,4 @@ O código completo pode ser encontrado neste repositório:
        |
        | [4] Sair
 ```
-## 8. Observações Importantes
-Esse codigo funciona para fins educacionais e não utiliza banco de dados.
-
-Todos os dados cadastrados são perdidos ao encerrar o programa.
 
